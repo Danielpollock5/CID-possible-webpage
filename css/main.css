@@ -1,0 +1,91 @@
+body{
+	margin: 0 auto;
+	font-family: 'Josefin Slab', sans-serif;
+	background-color: beige;
+}
+section{
+	margin-top: 30px;
+}
+#cid{
+	font-size: 40px;
+	margin-left: 100px;
+	padding-top: 35px;
+}
+.main{
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+/*.navbar{
+	border-bottom-color: black;
+}*/
+#navBar{
+	overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+	text-align: center;
+	color: white !important;
+	min-height: 80px;
+	z-index: 99;
+
+}
+h1{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.nav{
+	float: right;
+	padding-top: 20px;
+
+}
+
+a{
+	color: white !important;
+	font-size: 
+}
+#navBar a:hover{
+	color: yellow !important;
+}
+.image1{
+	background-image: url('../images/image1.jpg');
+	height: 1080px;
+	margin-top: -20px;
+
+
+}
+
+#CID{
+	margin-top: 250px;
+	font-size: 40px;
+	font-weight: bold;
+	color: beige;
+}
+/*=============next section============*/
+/*============our services=============*/
+#serviceWrapper{
+	padding: 75px 0;
+	background-color: #F0F0F0;
+}
+.service{
+	list-style: none;
+}
+hr, .line{
+	border-bottom: dotted 1px;
+}
+/*=======meet our staff!=======*/
+#clients{
+	background-color: #F0F0F0;
+}
+#clients > div > div > ul > li{
+	font-size: large;
+}
+
+
+
+
+
+
+
+
