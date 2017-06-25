@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--===============BOOTSTRAP LINK============== -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	
+
 	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
@@ -22,22 +22,22 @@
 </head>
 <body id="main">
 <header>
-		<nav class="navbar navbar-default">
-		  <div class="container" id=navBar>
+		<nav class="navbar navbar-default scroll-nav" role="navigation">
+		  <div class="container" id="navBar">
 		  	<div class="overlay">
-		    	<div class="navbar-header">
-		     		<a id="cid" class="navbar-brand" href="#">CID</a>
+		    	<div id="main-nav" class="collapse navbar-collapse navbar-header">
+		     		<a id="cid" class="navbar-brand scrollTop" href="#main">CID</a>
 		   		</div>
 
 					    <ul class="nav navbar-nav">
-							      <li><a href="#serviceWrapper">Our Services</a></li>
-							      <li><a href="#staff">Our Staff</a></li>
-							      <li><a href="#clients">Clients</a></li>
-							      <li><a href="#">HOA Forms</a></li>
-							      <li><a href="#">HomeOwner Benefits</a></li>
-							      <li><a href="#">HOA Resources</a></li>
-							      <li><a href="#">Property Management Proposal</a></li>
-							    
+							      <li><a data-id="Our Services" class="scroll-link" href="#serviceWrapper">Our Services</a></li>
+							      <li><a data-id="Our Staff" class="scroll-link" href="#staff">Our Staff</a></li>
+							      <li><a data-id="Clients" class="scroll-link" href="#clients">Clients</a></li>
+							      <li><a data-id="HOA Forms" class="scroll-link" href="#hoaForms">HOA Forms</a></li>
+							      <li><a data-id="HomeOwner Benefits" class="scroll-link" href="#">HomeOwner Benefits</a></li>
+							      <li><a data-id="HOA Resources" class="scroll-link" href="#">HOA Resources</a></li>
+							      <li><a data-id="Por" class="scroll-link" href="#">Property Management Proposal</a></li>
+
 						</ul>
 				 </div>
 			</div>
@@ -60,19 +60,20 @@
 	</section>
 	<!-- our services -->
 
-	<section id="serviceWrapper" class="container">
+	<section id="serviceWrapper" class="container page-section">
 		<div class="row">
 			<h1 class="text-center">WHAT CAN WE DO FOR YOU?</h1>
 				<div class="col-md-6 text-center">
 
-					<h2 class="line">Professional Services for your community</h2>
+					<h2 class="line">PROFESSIONAL SERVICES FOR YOUR COMMUNITY</h2>
 					<p>CID Management, Inc. is a service oriented community association management company specializing in effective asset management and efficient building and landscape maintenance.
 					Our goal is to assist the board of directors, using state-of-the-art equipment and current management theory, to maintain the association’s assets. The assets are comprised not only of the financial portfolio, but also the buildings and grounds, property values, and most importantly the residents’ perception of their quality of life while residing in your community.
 					Your homeowners will appreciate the pride of ownership and the security of knowing that your community is managed to attain the highest property values possible while maintaining financial security.</p>
-					
+
 						</div>
 				<div class="col-md-6 text-center" >
-					<h2 class="line">OUR SERVICES</h2>
+					<h2 class="line"><br>OUR SERVICES</h2>
+
 						<h3>ACCURATE REPORTING</h3>
 						<ul class="service">
 							<li>Modified Accrual Based Financial Reports</li>
@@ -80,12 +81,14 @@
 							<li>Management Action Reports</li>
 							<li>Correspondence Reports</li>
 						</ul>
+						<hr>
 						<h3>ASSET MANAGEMENT</h3>
 						<ul class="service">
 							<li>Landscape Reviews</li>
 							<li>Development Reviews</li>
 							<li>Budget and Contract Reviews</li>
 						</ul>
+						<hr>
 						<h3>SPECIALIZED SERVICES</h3>
 						<ul class="service">
 							<li>Monthly Newsletters</li>
@@ -95,23 +98,16 @@
 						</ul>
 				</div>
 
-				
+
 			</div>
 	</section>
 
 	<!-- our staff! -->
 
-	<section class="container" id="staff">
+	<section class="container page-section" id="staff">
 		<h1 class="text-center" id="meet">MEET OUR STAFF!</h1>
 			<div class="row">
 				<div class="col-md-4 thumbmnail text-center">
-					<h2 class="text-center">INSERT NAME</h2>	
-						<p>INSERT EMAIL</p>
-							<h6>INFO ABOUT THEM</h6>
-								<img src="http://via.placeholder.com/350x250">
-								<hr>
-				</div>
-				<div class="col-md-4 thumbmnail text-center">
 					<h2 class="text-center">INSERT NAME</h2>
 						<p>INSERT EMAIL</p>
 							<h6>INFO ABOUT THEM</h6>
@@ -124,10 +120,17 @@
 							<h6>INFO ABOUT THEM</h6>
 								<img src="http://via.placeholder.com/350x250">
 								<hr>
-					
 				</div>
 				<div class="col-md-4 thumbmnail text-center">
-					<h2 class="text-center">INSERT NAME</h2>	
+					<h2 class="text-center">INSERT NAME</h2>
+						<p>INSERT EMAIL</p>
+							<h6>INFO ABOUT THEM</h6>
+								<img src="http://via.placeholder.com/350x250">
+								<hr>
+
+				</div>
+				<div class="col-md-4 thumbmnail text-center">
+					<h2 class="text-center">INSERT NAME</h2>
 						<p>INSERT EMAIL</p>
 							<h6>INFO ABOUT THEM</h6>
 								<img src="http://via.placeholder.com/350x250">
@@ -149,8 +152,9 @@
 				</div>
 			</div>
 	</section>
+	<!-- END OF STAFF========= -->
 <!-- client section -->
-	<section class="container" id="clients">
+	<section class="container page-section" id="clients">
 		<div class="row">
 			<h1 class="text-center">Current Clients | Professional Managed by CID</h1>
 				<div class="col-md-6">
@@ -193,7 +197,7 @@
 							<li>Oak Grove Nieghborhood Association</li>
 						</ul>
 										<hr>
-					
+
 				</div>
 				<div class="col-md-6">
 					<h2>PLEASANT HILL AREA</h2>
@@ -232,20 +236,15 @@
 							<li>Lakeview Condominiums Homeowners Association</li>
 						</ul>
 										<hr>
-
-
-
 				</div>
-
-
-
-
-
-
-
-
-
-
+		</div>
+	</section>
+	<!--=============END OF CLIENTS==========  -->
+	<!--============ HOA forms ========= -->
+	<section class="container page-section" id="hoaForms">
+		<div class="text-center">
+			<h1>OUR HOA FORMS</h1>
+				<p>Below is a collection of our most frequently used forms. <br> Should you have any questions please feel free to contact us.</p>
 
 		</div>
 	</section>
@@ -253,9 +252,8 @@
 
 
 
-
 <footer>
-	
+
 </footer>
 
 

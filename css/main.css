@@ -43,7 +43,7 @@ h1{
 
 a{
 	color: white !important;
-	font-size: 
+	font-size:
 }
 #navBar a:hover{
 	color: yellow !important;
@@ -74,6 +74,10 @@ a{
 hr, .line{
 	border-bottom: dotted 1px;
 }
+#serviceWrapper > div > div:nth-child(2) > p{
+	font-size: large;
+
+}
 /*=======meet our staff!=======*/
 #clients{
 	background-color: #F0F0F0;
@@ -81,11 +85,4 @@ hr, .line{
 #clients > div > div > ul > li{
 	font-size: large;
 }
-
-
-
-
-
-
-
-
+/*============HOA FORms=============*/
