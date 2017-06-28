@@ -1,3 +1,4 @@
+//this creates the Nav scroll
 
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {

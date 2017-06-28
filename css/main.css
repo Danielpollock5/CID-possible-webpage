@@ -68,7 +68,7 @@ a{
 	padding: 75px 0;
 	background-color: #F0F0F0;
 }
-.service{
+li{
 	list-style: none;
 }
 hr, .line{
@@ -86,3 +86,21 @@ hr, .line{
 	font-size: large;
 }
 /*============HOA FORms=============*/
+#hoaForms > div > div > ul > li > a{
+	color: black !important;
+	font-size: 20px;
+}
+#hoaForms > div:nth-child(2) > ul > li > a{
+	color: black !important;
+	font-size: 20px;
+}
+/*========HOME OWNER BENEFITS=====*/
+button{
+	margin: 0 auto;
+}
+#HomeOwner{
+	background-color:	#F0F0F0;
+}
+#benefits > ul{
+	font-size: 20px;
+}
