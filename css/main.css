@@ -1,10 +1,14 @@
+*{
+
+}
 body{
 	margin: 0 auto;
 	font-family: 'Josefin Slab', sans-serif;
 	background-color: beige;
 }
 section{
-	margin-top: 30px;
+	margin:75px auto;
+	padding: 50px 10px !important;
 }
 #cid{
 	font-size: 40px;
@@ -19,11 +23,11 @@ section{
 }*/
 #navBar{
 	overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    left: 0;
-    width: 100%; /* Full width */
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%; /* Full width */
 	text-align: center;
 	color: white !important;
 	min-height: 80px;
@@ -103,4 +107,51 @@ button{
 }
 #benefits > ul{
 	font-size: 20px;
+}
+/*testimonials*/
+.testImg{
+	border-radius: 50%;
+}
+#info1,
+#info2,
+#info3{
+	background-color: #F0F0F0;
+	font-size: 16px;
+}
+/*Contact us */
+#contact{
+	background-color: #F0F0F0;
+	padding: 50px 15px!important;
+	margin: 0 auto;
+}
+.inputOne{
+	display: inline;
+
+}
+/*================PROPOSAL HTML====================*/
+#results{
+	font-size: 40px;
+	color:red;
+	font-weight: bold;
+	margin-top: 25px;
+}
+/*input:hover{
+	color: black;
+}*/
+#return{
+	color: black !important;
+	font-size: 40px;
+	text-decoration: none;
+
+}
+a:hover{
+	color:yellow !important;
+}
+#nav2{
+	margin-top: 50px;
+}
+
+/*================FOOTER======================*/
+#footer{
+	background-color: #333;
 }

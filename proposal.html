@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- ==============Media queries============== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--===============BOOTSTRAP LINK============== -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<!--=============== Animate CSS ================-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- ==============custom CSS==================-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--============== Font Awesome ================-->
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!--============== GOOGLE font =================-->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<!-- ===============FAVICON=================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<!-- ==============ANGULAR JS ================= -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<title>Proposal</title>
+</head>
+<body>
+	<nav id="nav2" class="text-center">
+		<a id="return" href="index.html">Return to Main</a>
+	</nav>
+	<section class="container">
+		<div class="container text-center">
+
+			<div class="text-center">
+				<h1>Management Proposal Request</h1>
+				<h2>COMPLETE AND SUBMIT THIS FORM TO RECEIVE A MANAGEMENT PROPOSAL</h2>
+			</div>
+																			<hr>
+				<div class="input1">
+					<h2>Name of Association:</h2>
+					<input id="AssoName" type="text" name="Name" value="" maxlength="60" required placeholder="Insert text here">
+				</div>
+																			<hr>
+				<div class="input2">
+					<h2>Association Address:</h2>
+						<textarea id="address" type="text" name="address" value="" cols="50" rows="5" maxlength="150"></textarea>
+				</div>
+																			<hr>
+				<div class="input3">
+					<h2>Number of Units:</h2>
+						<input id="numUnits" type="number" name="units" value="">
+				</div>
+																			<hr>
+				<div class="input4">
+					<h2>Condominium Project?</h2>
+					<select id="cProject" class="selectOne" name="condo">'
+						<option value="yes">Yes</option>
+						<option value="no" selected="selected">No</option>
+					</select>
+				</div>
+																			<hr>
+				<div class="input5">
+					<h2>Planned Unit Development?</h2>
+						<select id="development" class="selectTwo" name="plannedUnit">
+							<option value="yes">Yes</option>
+							<option value="no" selected="selected">No</option>
+						</select>
+				</div>
+																			<hr>
+				<div class="input6">
+					<h2>How many Years with current management company?</h2>
+						<input id="years" type="number" name="years" value=""
+							placeholder="1">
+				</div>
+																			<hr>
+				<div class="input7">
+					<h2>How many management companies has your <br>association been with in the past five years?</h2>
+						<input id="5years" type="number" name="fiveYears" value=""
+							placeholder="1">
+				</div>
+																			<hr>
+				<div class="input8">
+					<h2>Management required</h2>
+						<select id="requiredManage" class="selectThree" name="manage">
+							<option value="fullService">Full Service</option>
+							<option value="Finance" selected="selected">Finance Services Only</option>
+						</select>
+				</div>
+																			<hr>
+				<div class="input9">
+					<h2>If you are a current member of the board of directors, indicate your position.</h2>
+						<input id="position" type="text" name="position" value="">
+				</div>
+																			<hr>
+				<div class="input10">
+					<h2>If not, please provide the name, address and phone # of your Board President</h2>
+						<textarea id="positionOne" name="" rows="8" cols="80"></textarea>
+				</div>
+																			<hr>
+				<div class="input11">
+					<h2>List any special requirements here</h2>
+						<textarea name="" id="provide" rows="8" cols="80"></textarea>
+				</div>
+																			<hr>
+				<div class="input12">
+					<h2>Describe Amenities</h2>
+						<textarea id="amenities" name="positionOne" rows="8" cols="80"></textarea>
+				</div>
+																			<hr>
+																			<br>
+																			<br>
+		<div class="text-center">
+			<h1>PLEASE SEND A MANAGEMENT PROPOSAL TO</h1>
+																		<hr>
+		</div>
+				<div class="input13">
+					<h2>Name:</h2>
+						<input id="name" type="text" name="name" value="">
+				</div>
+																		<hr>
+				<div class="input14">
+					<h2>Address:</h2>
+						<textarea id="address2" name="address" value="" rows="8" cols="80"></textarea>
+				</div>
+																		<hr>
+				<div class="input15">
+					<h2>Day Time Phone:</h2>
+						<input id="phone" type="text" name="phone" value="">
+				</div>
+																		<hr>
+				<div class="input16">
+					<h2>Email Address:</h2>
+						<input id="email" type="text" name="email" value="">
+				</div>
+																		<hr>
+				<div class="input17">
+					<h2>Please enter the verification code:</h2>
+						<input id="verify" type="text" name="code" value="">
+				</div>
+																		<hr>
+				<button type="button" id="btn" class="btn-success" name="button" onclick()="submit">SUBMIT  FORM</button>
+		</div>
+
+
+
+		</div>
+
+		<div class="container text-center" id="results">
+
+</section>
+
+
+
+
+
+
+
+
+
+	<!-- ================Jquery CDN =================-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<!-- ================Bootstrap==================-->
+	<!-- <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> -->
+	<!-- =================JAVASCRIPT============== -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- =================ANGULAR JS================ -->
+	<!-- <script type="text/javascript" src="js/app.js"></script> -->
+	<!-- =================CONTROLLER LINK============ -->
+	<!-- <script type="text/javascript" src="js/controller/myctrl.js"></script> -->
+</body>
+</html>
