@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 //proposal
 
-function submit() {
+function domEventListener() {
 		var results = document.getElementById('results')
 
 		var association = document.getElementById('AssoName').value
@@ -153,5 +153,5 @@ function submit() {
 	results.textContent = 'Thanks for the input! One moment please'
 	$("#register").addClass("animated rotateOutUpLeft")
 
-}
-document.getElementById('btn').addEventListener('click', submit, false)
+
+document.getElementById('btn').addEventListener('click', domEventListener, false)
