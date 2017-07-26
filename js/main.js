@@ -155,3 +155,4 @@ function domEventListener() {
 
 
 document.getElementById('btn').addEventListener('click', domEventListener, false)
+}
